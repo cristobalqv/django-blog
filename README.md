@@ -8,7 +8,7 @@ El siguiente proyecto consiste en la creación de un Blog con Django, el que per
 
 ### ️⚙️ Características
 
-------------
+
 Este proyecto permite:
 
 - 🧑‍💻 Creación de un blog personalizado
@@ -20,7 +20,7 @@ Este proyecto permite:
 
 ### 🗒️ Estructura del proyecto y funcionamiento del código `</>`
 
-------------
+
 
 ```
 PROYECTO/
@@ -67,7 +67,7 @@ Los archivos y directorios del proyecto que consideraré más relevantes (en don
 
 ### 💻 Instalación y uso
 
-------------
+
 
 Clona el repositorio:
 
@@ -92,7 +92,7 @@ Posteriormente, abre un navegador y dependiendo si quieres acceder al panel de a
 
 ### 🤝 Contribuciones
 
-------------
+
 
 ¡Las contribuciones son bienvenidas! Por favor, sigue los siguientes pasos:
 
@@ -114,7 +114,7 @@ Posteriormente, abre un navegador y dependiendo si quieres acceder al panel de a
 
 ### 📜 Licencia
 
-------------
+
 
 Este proyecto está licenciado bajo la Licencia MIT, lo que permite su libre uso y modificación con fines personales o comerciales.
 
