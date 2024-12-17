@@ -15,6 +15,7 @@ Este proyecto permite:
 
 <br>
 ### 🗒️ Estructura del proyecto y funcionamiento del código `</>`
+
 ------------
 
 ```
