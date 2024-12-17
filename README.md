@@ -25,27 +25,27 @@ Este proyecto permite:
 ```
 PROYECTO/
 │
-├── blog/                                 # Aplicación principal del blog
+├── blog/                           # Aplicación principal del blog
 │        ├── __pycache__/           # Archivos compilados de Python
 │        ├── migrations/            # Archivos de migraciones de la B.B.D.D
-│        ├── __init__.py               # Directorio como un paquete de Python
+│        ├── __init__.py            # Directorio como un paquete de Python
 │        ├── admin.py               # Configuración del panel de administración
-│        ├── apps.py                 # Configuración de la aplicación
+│        ├── apps.py                # Configuración de la aplicación
 │        ├── models.py              # Definición de los modelos de la B.B.D.D
-│        ├── tests.py                 # Pruebas unitarias de la aplicación
+│        ├── tests.py               # Pruebas unitarias de la aplicación
 │        └── views.py               # Lógica de las vistas
 │
-├── proyecto_blog/                 # Configuración global del proyecto
+├── proyecto_blog/                  # Configuración global del proyecto
 │        ├── __pycache__/           # Archivos compilados de Python
-│        ├── templates/              # Plantillas HTML compartidas
-│        ├── __init__.py               # Directorio como un paquete de Python
-│        ├── asgi.py                    # Configuración de ASGI para el proyecto
-│        ├── settings.py              # Configuraciones globales del proyecto
-│        ├── urls.py                     # Enrutamiento principal del proyecto
-│        └── wsgi.py                   # Configuración de WSGI para el servidor
+│        ├── templates/             # Plantillas HTML compartidas
+│        ├── __init__.py            # Directorio como un paquete de Python
+│        ├── asgi.py                # Configuración de ASGI para el proyecto
+│        ├── settings.py            # Configuraciones globales del proyecto
+│        ├── urls.py                # Enrutamiento principal del proyecto
+│        └── wsgi.py                # Configuración de WSGI para el servidor
 │
-├── venv/                                # Entorno virtual de Python
-├── db.sqlite3                         # Base de datos SQLite
+├── venv/                           # Entorno virtual de Python
+├── db.sqlite3                      # Base de datos SQLite
 └── manage.py                       # Comando principal de gestión de Django
 
 ```
