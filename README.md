@@ -5,7 +5,9 @@ El siguiente proyecto consiste en la creación de un Blog con Django, el que per
 <br>
 
 ### ️⚙️ Características
+
 ------------
+
 Este proyecto permite:
 
 - 🧑‍💻 Creación de un blog personalizado
@@ -14,6 +16,7 @@ Este proyecto permite:
 - 📝 Creación de posts y comentarios
 
 <br>
+
 ### 🗒️ Estructura del proyecto y funcionamiento del código `</>`
 
 ------------
@@ -63,8 +66,11 @@ Los archivos y directorios del proyecto que consideraré más relevantes (en don
 
 
 <br>
+
 ### 💻 Instalación
+
 ------------
+
 Clona el repositorio:
 
 ```
@@ -72,5 +78,5 @@ git clone https://github.com/cristobalqv/django-blog
 ```
 
 <br>
-### f
-`hola`
+
+### 
