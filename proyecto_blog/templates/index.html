@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EL BLOG DEL ROCK</title>
+</head>
+<body>
+
+    {% block title %}
+
+    <h1>{{ mensaje }}</h1>
+    <h2>{{ descripcion }}</h2>
+
+    {% endblock %}
+
+    <header>
+
+        <nav>
+            <nav class="menu">
+                <ul>
+                  <li><a href="{% url 'bienvenido' %}">Inicio</a></li>
+                  <li><a href="{% url 'usuarios' %}">Usuarios Registrados</a></li>
+                  <li><a href="{% url 'entradas' %}">Entradas</a></li>
+                </ul>
+              </nav>
+        </nav>
+
+        <p>___________________________________________________________________________________</p>
+
+    </header>
+
+    <body>
+        {% block content %}
+
+        <h2>Un espacio para los amantes del rock. Comparte tu pasión, descubre nuevas bandas, conoce a otros fans y mantente al día con las últimas novedades del mundo del rock</h2>
+
+        <h3>Síguenos en nuestras redes sociales y únete a la conversación</h3>
+
+        {% endblock %}
+
+        </body>
+
+    <footer>
+
+        <p>___________________________________________________________________________________</p>
+
+
+        <h3>El autor de este blog es <strong>{{ creador }}</strong>. TODOS LOS DERECHOS RESERVADOS</h3>
+
+    </footer>
+</body>
+</html>

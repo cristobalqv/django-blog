@@ -1,0 +1,34 @@
+{% extends "index.html" %}
+
+
+
+{% block title %}
+
+<h1>{{ mensaje }}</h1> 
+
+{% endblock %}
+
+
+{% block content %}
+
+<h2>{{ descripcion }}</h2>
+
+{% if usuarios is not None %}
+
+    {% for usuario in usuarios %}
+
+        <ul>
+            <li>
+                <a href="{% url 'usuario-detalle' usuario.pk %}">{{ usuario.username }}</a>
+            </li>
+        </ul>
+
+    {% endfor %}
+
+    {% else %}
+
+    <p>NO HAY USUARIOS PARA MOSTRAR</p>
+
+{% endif %}
+
+{% endblock %}

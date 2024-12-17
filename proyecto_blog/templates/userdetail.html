@@ -1,0 +1,51 @@
+{% extends "index.html" %}
+
+
+
+{% block title %}
+
+<h1>{{ mensaje }}</h1> 
+<h2>{{ descripcion }}</h2>
+
+{% endblock %}
+
+
+{% block content %}
+
+{% if usuario is not None %}
+
+        <ul>
+                <p>ID usuario: {{ usuario.id }}</p>
+                <p>Nombre usuario: {{ usuario.username }}</p>
+                <p>Fecha ingreso: {{ usuario.date_joined }}</p>
+                <p>Posts generados</p>    <!-- AGREGAR POST GENERADOS -->
+
+                {% if posts %}
+
+                    {% for post in posts %}
+                        <ul>
+                            <li>
+                                <a href="{% url 'entradas-detalle' post.pk %}">{{ post }}</a>     <!--AQUI POR DEFECTO ME RETORNA EL TITULO (VER MODELS POST)-->
+                            </li>
+                        </ul>
+                    {% endfor %}
+
+                {% else %}
+                <p>Este usuario no ha ingresado posts</p>
+
+                {% endif %}
+
+        </ul>
+
+
+        
+    {% else %}
+
+    <p>NO HAY USUARIO PARA MOSTRAR</p>
+    <p></p>
+
+{% endif %}
+
+<p><a href="{% url 'usuarios' %}">Volver a la seccion usuarios</p></a>
+
+{% endblock %}

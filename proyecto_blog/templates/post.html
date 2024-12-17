@@ -1,0 +1,31 @@
+{% extends "index.html" %}
+
+
+{% block title %}
+
+<h1>{{ mensaje }}</h1> 
+
+{% endblock %}
+
+
+
+{% block content %}
+
+<h2>{{ descripcion }}</h2>
+
+
+{% if object_list is not None %}     <!-- object list es mi diccionario con las variables de mi modelo, en este caso de posts-->
+
+{% for post in object_list %}
+
+<ul>
+    <li>
+        Autor: <a href="{% url 'usuario-detalle' post.autor.id %}">{{ post.autor }}</a>. Titulo: {{ post.titulo }}. Contenido: "{{ post.contenido }}""  <!--accedo a -->
+    </li>
+</ul>
+
+{% endfor %}
+
+{% endif %}
+
+{% endblock %}

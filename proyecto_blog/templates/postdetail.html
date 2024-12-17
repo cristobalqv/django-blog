@@ -1,0 +1,9 @@
+{% block content %}
+<h1>Detalles del Post</h1>
+
+<p><strong>Titulo: {{ object.titulo }}</strong></p>
+<p><strong>Autor:</strong><a href="{% url 'usuario-detalle' object.autor.pk %}">{{ object.autor.username }}</a></p>
+<p><strong>Contenido:</strong> {{ object.contenido }}</p>
+
+<p><a href="{% url 'usuarios' %}">Volver a la seccion usuarios</p></a>
+{% endblock %} 
