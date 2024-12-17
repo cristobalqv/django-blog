@@ -5,9 +5,7 @@ El siguiente proyecto consiste en la creación de un Blog con Django, el que per
 <br>
 
 ### ️⚙️ Características
-
 ------------
-
 Este proyecto permite:
 
 - 🧑‍💻 Creación de un blog personalizado
@@ -16,9 +14,7 @@ Este proyecto permite:
 - 📝 Creación de posts y comentarios
 
 <br>
-
 ### 🗒️ Estructura del proyecto y funcionamiento del código `</>`
-
 ------------
 
 ```
@@ -62,21 +58,52 @@ Los archivos y directorios del proyecto que consideraré más relevantes (en don
 
 `proyecto_blog/settings.py` [Script](https://github.com/cristobalqv/django-blog/blob/main/proyecto_blog/settings.py " Script") que contiene información para el correcto funcionamiento de la app
 
-
-
-
 <br>
-
-### 💻 Instalación
-
+### 💻 Instalación y uso
 ------------
-
 Clona el repositorio:
 
 ```
 git clone https://github.com/cristobalqv/django-blog
 ```
+<br>
+Para ejecutar el proyecto, en primera instancia deberás crear un superusuario para poder habilitar un usuario en el administrador de Django. Debes situarte en el mismo directorio de `manage.py` :
+
+```python manage.py createsuperuser```
+
+Luego deberás ejecutar el siguiente comando:
+
+```python manage.py runserver```
+
+Posteriormente, abre un navegador y dependiendo si quieres acceder al panel de administración de Django o al blog, escribe en la barra de búsqueda:
+- http://127.0.0.1:8000/admin
+- http://127.0.0.1:8000/indice
 
 <br>
+### 🤝 Contribuciones
+------------
+¡Las contribuciones son bienvenidas! Por favor, sigue los siguientes pasos:
 
-### 
+- ** Haz un fork del proyecto y crea una nueva rama:**
+
+`git checkout -b feature/nueva-funcionalidad`
+
+- ** Realiza tus cambios y haz commit:**
+
+`git commit -am 'Agrega nueva funcionalidad'`
+
+- ** Sube los cambios:**
+
+`git push origin feature/nueva-funcionalidad`
+
+- ** Envía un Pull Request.**
+
+<br>
+### 📜 Licencia
+------------
+Este proyecto está licenciado bajo la Licencia MIT, lo que permite su libre uso y modificación con fines personales o comerciales.
+
+<br>
+<br>
+
+[![](indice)](https://github.com/cristobalqv/django-blog/blob/main/varios/indice.png)
