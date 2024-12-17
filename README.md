@@ -1,10 +1,13 @@
 # Creación de un Blog con Django
 
 El siguiente proyecto consiste en la creación de un Blog con Django, el que permite las interacciones entre los elementos principales que lo componen (Usuarios, Post y Comentarios). Para esto se ponen en práctica conceptos de Programación Orientada a Objetos, ORM (Object Relational Mapping), CBV (Class Based Views), Modelos de bases de datos, entre otros. 
+
 [![](https://github.com/cristobalqv/django-blog/blob/main/varios/blog%20django.png)](https://github.com/cristobalqv/django-blog/blob/main/varios/blog%20django.png)
+
 <br>
 
 ### ️⚙️ Características
+
 ------------
 Este proyecto permite:
 
@@ -14,7 +17,9 @@ Este proyecto permite:
 - 📝 Creación de posts y comentarios
 
 <br>
+
 ### 🗒️ Estructura del proyecto y funcionamiento del código `</>`
+
 ------------
 
 ```
@@ -59,13 +64,17 @@ Los archivos y directorios del proyecto que consideraré más relevantes (en don
 `proyecto_blog/settings.py` [Script](https://github.com/cristobalqv/django-blog/blob/main/proyecto_blog/settings.py " Script") que contiene información para el correcto funcionamiento de la app
 
 <br>
+
 ### 💻 Instalación y uso
+
 ------------
+
 Clona el repositorio:
 
 ```
 git clone https://github.com/cristobalqv/django-blog
 ```
+
 <br>
 Para ejecutar el proyecto, en primera instancia deberás crear un superusuario para poder habilitar un usuario en el administrador de Django. Debes situarte en el mismo directorio de `manage.py` :
 
@@ -80,8 +89,11 @@ Posteriormente, abre un navegador y dependiendo si quieres acceder al panel de a
 - http://127.0.0.1:8000/indice
 
 <br>
+
 ### 🤝 Contribuciones
+
 ------------
+
 ¡Las contribuciones son bienvenidas! Por favor, sigue los siguientes pasos:
 
 - ** Haz un fork del proyecto y crea una nueva rama:**
@@ -99,11 +111,14 @@ Posteriormente, abre un navegador y dependiendo si quieres acceder al panel de a
 - ** Envía un Pull Request.**
 
 <br>
+
 ### 📜 Licencia
+
 ------------
+
 Este proyecto está licenciado bajo la Licencia MIT, lo que permite su libre uso y modificación con fines personales o comerciales.
 
 <br>
 <br>
 
-[![](indice)](https://github.com/cristobalqv/django-blog/blob/main/varios/indice.png)
+[![indice](https://github.com/cristobalqv/django-blog/blob/main/varios/indice.png "indice")](https://github.com/cristobalqv/django-blog/blob/main/varios/indice.png "indice")
